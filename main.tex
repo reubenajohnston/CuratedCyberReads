@@ -1,11 +1,129 @@
-\documentclass[11pt,a4paper,twoside]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
-\usepackage{blindtext}
+%Copyright 2023, Reuben Johnston, www.reubenjohnston.com
+%Dependencies
+%$ sudo apt-get install texlive texlive-latex-extra
+%Usage
+%$ pdflatex curated_list_of_infamous_malware_reuben_johnston.tex
 
+\documentclass[a4paper]{article}
+\usepackage[a4paper, portrait, margin=0.5in]{geometry}
+
+\usepackage[pages=all, color=black, position={current page.south}, placement=bottom, scale=1, opacity=1, vshift=5mm]{background}
+\SetBgContents{
+	\tt This work is shared under a \href{https://creativecommons.org/licenses/by-nc-sa/4.0/}{CC BY-NC-SA 4.0 license} unless otherwise noted
+}      % copyright
+
+\usepackage{hyperref}
+\usepackage[ampersand]{easylist}
+
+\title{Curated List of Infamous Malware}
+\author{Reuben Aaron Johnston, Ph.D.}
+\date{July 2023}
 
 \begin{document}
+	\maketitle
+	
+	In the spirit of learning, please enjoy this curated list of infamous malware with references to associated writings about them.  Please feel free to reach out with any suggestions for improvement!  Reuben Johnston
+	
+	\textbf{Morris Worm (1988):}
+	\begin{easylist}[itemize]
+	& \href{https://0x00sec.org/t/examining-the-morris-worm-source-code-malware-series-0x02/685}{Examining the Morris Worm Source Code - Malware Series - 0x02, by Cromical, July 2016}
+	& The Internet Worm Program: An Analysis (CSD-TR-823), by Eugene Spafford, Purdue, 1988
+	\end{easylist}
 
-\noindent {\bfseries\LARGE It worked?\par}
-\bigskip\noindent
+	\textbf{Melissa Virus (1999):}
+	\begin{easylist}[itemize]
+	& \href{https://www.govinfo.gov/content/pkg/GAOREPORTS-T-AIMD-99-146/pdf/GAOREPORTS-T-AIMD-99-146.pdf}{The Melissa Computer Virus Demonstrates Urgent 
+Need for Stronger Protection Over Systems and Sensitive Data, testimony by Keith A. Rhodes, GAO, April 15, 1999}
+	\end{easylist}	
+
+	\textbf{Iloveyou Virus (2000):}
+	\begin{easylist}[itemize]
+	& \href{https://www.cnn.com/2020/05/01/tech/iloveyou-virus-computer-security-intl-hnk/index.html}{‘I love you’: How a badly-coded computer virus caused billions in damage and exposed vulnerabilities which remain 20 years on, by James Griffiths, CNN Business, May 3, 2020}
+	& Analysis of the ILOVEYOU Worm, by Matt Bishop, University of California at Davis, May 9, 2000
+	\end{easylist}	
+
+	\textbf{Code Red Worm (2001):}
+	\begin{easylist}[itemize]
+	& The Code Red Worm, by Hal Berghel, Communications of the ACM, Vol. 44, No. 12, Dec. 2001
+	& The Code Red Worm (v1.2e), by John C. Dolak, Security Essentials
+	\end{easylist}
+
+	\textbf{Slammer Worm (2003):}
+	\begin{easylist}[itemize]
+	& \href{}{}
+	\end{easylist}	
+
+	\textbf{Blaster Worm (2003):}
+	\begin{easylist}[itemize]
+	& \href{}{}
+	\end{easylist}	
+
+	\textbf{Mydoom Worm (2004):}
+	\begin{easylist}[itemize]
+	& \href{https://www.newsweek.com/more-doom-131157}{More Doom?, Newsweek, February 2, 2004}
+	& \href{https://unit42.paloaltonetworks.com/mydoom-still-active-in-2019/}{MyDoom Still Active in 2019, by Brad Duncan, Unit 42, Palo Alto Networks, July 26, 2019}
+	& \href{https://web.archive.org/web/20190122073704/https://www.symantec.com/security-center/writeup/2004-012612-5422-99}{W32.Mydoom.A@mm, Symantec, January 26, 2004}
+	\end{easylist}	
+
+	\textbf{Darkhotel Cyberspy Campaign (2007):}
+	\begin{easylist}[itemize]
+	& \href{https://www.kaspersky.com/blog/darkhotel-apt/6613}{}
+	\end{easylist}	
+	
+	\textbf{Conficker Worm (2008):}
+	\begin{easylist}[itemize]
+	& \href{}{}
+	\end{easylist}	
+
+	\textbf{Stuxnet Attack (2010):}
+	\begin{easylist}[itemize]
+	& \href{https://www.wired.com/2014/11/countdown-to-zero-day-stuxnet}{}
+	& \href{https://www.kaspersky.com/blog/stuxnet-victims-zero/6775}{}
+	\end{easylist}	
+
+	\textbf{Cryptolocker Ransomware (2013):}
+	\begin{easylist}[itemize]
+	& \href{}{}
+	\end{easylist}	
+
+	\textbf{Petya Ransomware (2016):}
+	\begin{easylist}[itemize]
+	& \href{https://www.kaspersky.com/blog/petya-ransomware/11715}{}
+	\end{easylist}	
+	
+	\textbf{New Petya Ransomware (2017):}
+	\begin{easylist}[itemize]
+	& \href{https://www.kaspersky.com/blog/new-ransomware-epidemics/17314}{}
+	& \href{https://securelist.com/schroedingers-petya/78870}{}
+	\end{easylist}	
+
+	\textbf{Mirai Botnet (2016):}
+	\begin{easylist}[itemize]
+	& \href{https://www.wired.com/story/mirai-untold-story-three-young-hackers-web-killing-monster}{}
+	& \href{https://www.kaspersky.com/blog/attack-on-dyn-explained/13325}{}
+	\end{easylist}	
+
+	\textbf{EternalBlue+WannaCry:}
+	\begin{easylist}[itemize]
+	& \href{https://www.kaspersky.com/blog/wannacry-ransomware/16518}{}
+	\end{easylist}	
+
+	\textbf{Solarwinds Attack (2019):}
+	\begin{easylist}[itemize]
+	& \href{https://www.wired.com/story/the-untold-story-of-solarwinds-the-boldest-supply-chain-hack-ever}{}
+	& \href{https://www.npr.org/2021/04/16/985439655/a-worst-nightmare-cyberattack-the-untold-story-of-the-solarwinds-hack}{"A 'Worst Nightmare' Cyberattack: The Untold Story Of The SolarWinds Hack", Raston, All Things Considered, NPR}
+	\end{easylist}	
+
+	\textbf{UEFI rootkits:}
+	\begin{easylist}[itemize]
+	& \href{https://securelist.com/cosmicstrand-uefi-firmware-rootkit/106973}{}
+	& \href{https://arstechnica.com/information-technology/2022/07/researchers-unpack-unkillable-uefi-rootkit-that-survives-os-reinstalls}{}
+	\end{easylist}	
+
+	\textbf{operation triangulation (2023):}
+	\begin{easylist}[itemize]
+	& \href{https://securelist.com/operation-triangulation-the-last-hardware-mystery/111669/}{Operation Triangulation: The last (hardware) mystery, by Boris Larin, SecureList, Kaspersky, December 27, 2023}
+	\end{easylist}		
+
+	\bigskip\noindent
 \end{document}
