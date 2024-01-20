@@ -1,10 +1,13 @@
-# CuratedCyberReads
-A curated list of my favorite cyber reads.  Please contact me for suggestions on improvements.  
+# Curated Cyber Reads
+A project with categorized, curated lists of cyber reads.  Please contact me for suggestions on improvements.  
+* [Curated List of Infamous Malware](https://github.com/reubenajohnston/CuratedCyberReads/releases/download/v1.0/main.pdf])
 
 Reuben Johnston, reub@jhu.edu
 
+# Build instructions
+* To trigger the GitHub action that will build, push a new tag after you have commited all updates.
+
 ## Documents
-* [Curated List of Infamous Malware](https://github.com/reubenajohnston/CuratedCyberReads/releases/download/v1.0/main.pdf])
 
 ## Useful links
 * https://docs.github.com/en/actions/quickstart
