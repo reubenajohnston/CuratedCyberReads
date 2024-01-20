@@ -9,3 +9,4 @@
 * https://github.com/merkez/latex-on-ci-cd/tree/master
 * https://github.com/xu-cheng/latex-action
 * https://github.com/marketplace/actions/get-the-upload-url-for-a-release
+* https://github.com/marketplace?type=actions
