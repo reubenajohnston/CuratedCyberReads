@@ -1,5 +1,7 @@
 # CuratedCyberReads
-A curated list of my favorite cyber reads.  Please contact me for suggestions on improvements.  Reuben Johnston, reub@jhu.edu
+A curated list of my favorite cyber reads.  Please contact me for suggestions on improvements.  
+
+Reuben Johnston, reub@jhu.edu
 
 ## Useful links
 * https://docs.github.com/en/actions/quickstart
