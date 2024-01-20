@@ -15,20 +15,26 @@ jobs:
         with:
           root_file: curated_list_of_infamous_malware_reuben_johnston.tex
           
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
+#      - name: Create Release
+#        id: create_release
+#        uses: actions/create-release@v1
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        with:
+#          #tag_name: ${{ github.ref }}
+#          #release_name: Release ${{ github.ref }}
+#          tag_name: ver-${{ github.ref }}
+#          release_name: Release ${{ github.ref }}
+#          #tag_name: ${{vars.CURR_RELEASE}}
+#          #release_name: ${{vars.CURR_RELEASE}}
+#          draft: false
+#          prerelease: false
+
+      - name: Get release
+        id: get_release
+        uses: bruceadams/get-release@v1.3.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          #tag_name: ${{ github.ref }}
-          #release_name: Release ${{ github.ref }}
-          tag_name: ver-${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          #tag_name: ${{vars.CURR_RELEASE}}
-          #release_name: ${{vars.CURR_RELEASE}}
-          draft: false
-          prerelease: false
 
       - name: Upload Release Asset
         id: upload-release-asset 
@@ -36,7 +42,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }} 
+          #upload_url: ${{ steps.create_release.outputs.upload_url }} 
+          upload_url: ${{ steps.get_release.outputs.upload_url }}
           asset_path: ./curated_list_of_infamous_malware_reuben_johnston.pdf
           asset_name: curated_list_of_infamous_malware_reuben_johnston.pdf
           asset_content_type: pdf
