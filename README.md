@@ -4,7 +4,7 @@ A curated list of my favorite cyber reads.  Please contact me for suggestions on
 Reuben Johnston, reub@jhu.edu
 
 ## Documents
-* [https://github.com/reubenajohnston/CuratedCyberReads/releases/tag/v1.0](Curated List of Infamous Malware)
+* [Curated List of Infamous Malware](https://github.com/reubenajohnston/CuratedCyberReads/releases/tag/v1.0])
 
 ## Useful links
 * https://docs.github.com/en/actions/quickstart
