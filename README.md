@@ -1,5 +1,7 @@
 # CuratedCyberReads
-A curated list of my favorite cyber reads.  Please contact me for suggestions on improvements.  
+A curated list of my favorite cyber reads.  Currently, there is one document on infamous malware that can be downloaded in the releases section.
+
+Please contact me for suggestions on improvements.  
 
 Reuben Johnston, reub@jhu.edu
 
