@@ -10,7 +10,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: main.tex
+          root_file: curated_list_of_infamous_malware_reuben_johnston.tex
           
       - name: Create Release
         id: create_release
@@ -32,6 +32,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} 
-          asset_path: ./main.pdf
-          asset_name: main.pdf
+          asset_path: ./curated_list_of_infamous_malware_reuben_johnston.pdf
+          asset_name: curated_list_of_infamous_malware_reuben_johnston.pdf
           asset_content_type: pdf
