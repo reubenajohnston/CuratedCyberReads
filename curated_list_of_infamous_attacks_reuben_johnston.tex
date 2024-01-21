@@ -1,0 +1,65 @@
+%Copyright 2024, Reuben Johnston, www.reubenjohnston.com
+%Dependencies
+%$ sudo apt-get install texlive texlive-latex-extra
+%Usage
+%$ pdflatex curated_list_of_infamous_attacks_reuben_johnston.tex
+
+\documentclass[a4paper]{article}
+\usepackage[a4paper, portrait, margin=0.5in]{geometry}
+
+% copyright
+\usepackage[pages=all, color=black, position={current page.south}, placement=bottom, scale=1, opacity=1, vshift=5mm]{background}
+\SetBgContents{
+	\tt This work is shared under a \href{https://creativecommons.org/licenses/by-nc-sa/4.0/}{CC BY-NC-SA 4.0 license} unless otherwise noted
+}
+
+\usepackage{hyperref}
+\usepackage[ampersand]{easylist}
+
+\title{Curated List of Infamous Attacks}
+\author{Reuben Aaron Johnston, Ph.D. \\ email \href{mailto:reub@jhu.edu}{reub@jhu.edu}}
+\date{January 2024}
+
+\begin{document}
+	\maketitle
+	
+	In the spirit of learning, I am sharing this curated list of infamous attacks with references to associated writings.  Please feel free to reach out with any suggestions for improvement!  
+	
+	\bigskip\noindent
+
+	\noindent\textbf{Sony's PlayStation Hack (2011):}
+	\begin{easylist}[itemize]
+  & \href{https://www.bbc.com/news/technology-13206004}{Sony's PlayStation hack apology, BBC, April 27, 2011}
+  & \href{https://arstechnica.com/gaming/2011/04/sonys-black-eye-is-a-pr-problem-not-a-legal-one}{PlayStation Network hacked, data stolen: how badly is Sony hurt?, By Kuchera, ARS Technica, April 26, 2011}
+	\end{easylist}  
+
+ 	\noindent\textbf{Target Data Breach (2013):}
+	\begin{easylist}[itemize]
+  & \href{https://www.zdnet.com/article/anatomy-of-the-target-data-breach-missed-opportunities-and-lessons-learned}{Anatomy of the Target data breach: Missed opportunities and lessons learned, by Kassner, ZDNet, February 2, 2015}
+	\end{easylist}
+
+	\noindent\textbf{Sony Pictures Hack (2014):}
+	\begin{easylist}[itemize]
+  & \href{https://www.vox.com/2014/12/14/7387945/sony-hack-explained}{The Sony hack: how it happened, who is responsible, and what we've learned, by Lee, Vox, December 17, 2014}
+	\end{easylist}
+ 
+	\noindent\textbf{Cambridge Analytica Scandal (2014):}
+	\begin{easylist}[itemize]
+	& \href{https://www.netflix.com/title/80117542}{The Great Hack, Amer et al., Netflix, 2019}
+  & \href{https://www.nytimes.com/2018/04/04/us/politics/cambridge-analytica-scandal-fallout.html}{Cambridge Analytica and Facebook: The Scandal and the Fallout So Far, by Confessore, New York Times, April 4, 2018}
+  & \href{https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election}{Revealed: 50 million Facebook profiles harvested for Cambridge Analytica in major data breach, by Cadwalladr and Graham-Harrison, The Guardian, March 17, 2018}
+  & \href{https://www.ftc.gov/news-events/news/press-releases/2019/12/ftc-issues-opinion-order-against-cambridge-analytica-deceiving-consumers-about-collection-facebook}{FTC Issues Opinion and Order Against Cambridge Analytica For Deceiving Consumers About the Collection of Facebook Data, Compliance with EU-U.S. Privacy Shield, FTC, December 6, 2019}
+	\end{easylist}
+
+ \noindent\texbf{MGM Attack (2023):}
+ \begin{easylist}[itemize]
+ & \href{https://www.vox.com/technology/2023/9/15/23875113/mgm-hack-casino-vishing-cybersecurity-ransomware}{The chaotic and cinematic MGM casino hack, explained, by Morrison, Vox, October 6, 2023}
+ \end{easylist}
+
+	\noindent\textbf{Solarwinds Attack (2019):}
+	\begin{easylist}[itemize]
+	& Curated List of Infamous Malware, CuratedCyberReads, Johnston (todo, insert link to result from latex build)
+	\end{easylist}
+
+	\bigskip\noindent
+\end{document}
