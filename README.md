@@ -1,5 +1,7 @@
 # Curated Cyber Reads
-An open project with categorized, curated lists of cyber reads that will be used in a teaching context.  For updates, please either create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request) or contact me via email with details.  All contributions will receive acknowledgement in corresponding documents, so please also include your desired contact details (e.g., name, organization, and email address).
+An **open project** with categorized, curated lists of cyber reads that will be used in a teaching context.
+
+All contributions will receive acknowledgement in corresponding documents.  To contribute, please either create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request) or contact me via email with details.  Please also include your desired contact details (e.g., name, organization, and email address).
 
 The list below contains links to the generated documents, in pdf format.  Their corresponding latex files are named similarly and are located in the repository code.  
 * [Curated List of Infamous Malware](https://github.com/reubenajohnston/CuratedCyberReads/releases/download/v1.1/curated_list_of_infamous_malware_reuben_johnston.pdf)
