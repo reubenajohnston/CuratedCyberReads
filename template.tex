@@ -1,0 +1,41 @@
+%Copyright 2025, Reuben Johnston, www.reubenjohnston.com
+%Dependencies
+%$ sudo apt-get install texlive texlive-latex-extra
+%Usage
+%$ pdflatex curated_list_of_<REPLACEME>_reuben_johnston.tex
+
+\documentclass[a4paper]{article}
+\usepackage[a4paper, portrait, margin=0.5in]{geometry}
+
+% copyright
+\usepackage[pages=all, color=black, position={current page.south}, placement=bottom, scale=1, opacity=1, vshift=5mm]{background}
+\SetBgContents{
+	\tt This work is shared under a \href{https://creativecommons.org/licenses/by-nc-sa/4.0/}{CC BY-NC-SA 4.0 license} unless otherwise noted
+}
+
+\usepackage{hyperref}
+\usepackage[ampersand]{easylist}
+
+\title{Curated List of Infamous Attacks}
+\author{Edited by Reuben Aaron Johnston, Ph.D. \\ email \href{mailto:reub@jhu.edu}{reub@jhu.edu}}
+\date{January 2025}
+
+\begin{document}
+	\maketitle
+	
+	In the spirit of learning, please enjoy this curated list of <REPLACEME> references to associated writings.  Instructions for contributions are available on the \href{https://github.com/reubenajohnston/CuratedCyberReads}{GitHub project}.
+	
+	\bigskip\noindent
+
+	\noindent\textbf{<Title> (<DATE>):}
+	\begin{easylist}[itemize]
+	& <Item1>
+  % \href{<LINK>}{<CITATION>}
+  	\end{easylist}  
+
+	%section without number uses \section*{SECTIONNAME} instead of \section{SECTIONNAME}
+	\section*{Contributors}
+ 	\begin{easylist}[itemize]
+  	& Your name, organization, and email could be here.  Please contribute!
+	\end{easylist}
+\end{document}
